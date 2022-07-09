@@ -1,0 +1,31 @@
+.body {
+  margin: 0px;
+}
+
+.site-logo {
+  height: auto;
+  width: auto;
+}
+
+.flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  background-image: url("../images/header-background.png");
+  background-position: center 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  padding: 50px 20% 0px;
+}
+
+.header__flex-container {
+  justify-content: space-between;
+}
+
+.social-media__icon {
+  margin: 0px 3px;
+}
