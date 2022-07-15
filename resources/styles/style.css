@@ -1,4 +1,5 @@
 @import url("fonts.css");
+@import url("slider.css");
 
 :root {
   --font-family-primary: Raleway;
@@ -6,6 +7,7 @@
   --color-white: #ffffff;
   --color-blue: #0199e6;
   --color-blue-two: #008ed6;
+  --color-blue-three: #94cae6;
   --color-black: rgba(0, 0, 0, 0.5);
   --color-transp-blue: rgba(1,153,230,0.29);
   --color-gray: #323232;
@@ -281,6 +283,10 @@
 
 .section__video {
   margin: 70px 0px;
+}
+
+.section__slider {
+  margin: 70px 0px 0px;
 }
 
 

@@ -1,0 +1,78 @@
+.slider {
+  align-self: stretch;
+  height:0;
+  overflow:hidden;
+  padding-top: 21.4%;
+  padding-bottom: 53.5px;
+  position:relative;
+}
+
+.slider * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slider input {
+  display: none;
+}
+
+.slide {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transition: opacity 0.4s;
+  width: 100%;
+}
+
+.slide img {
+  width: 31.3%;
+}
+
+.slide:hover + .nav label {
+  opacity: 0.5;
+}
+
+input:checked + .slide {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.4s;
+}
+
+input:checked + .nav label {
+  display: block;
+}
+
+.nav-dots {
+  display: block;
+  height: 12.5px;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-dots .nav-dot {
+  background-color: var(--color-blue-three);
+  border-radius: 100%;
+  display: inline-block;
+  height: 12.5px;
+  margin: 0 4px;
+  position: relative;
+  width: 12.5px;
+}
+
+.nav-dots .nav-dot:hover {
+  background-color: var(--color-blue);
+  cursor: pointer;
+}
+
+/* doesn't work */
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3 {
+  background: var(--color-blue);
+}
