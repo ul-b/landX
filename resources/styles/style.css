@@ -211,7 +211,7 @@
   flex-direction: row-reverse;
 }
 
-.section-text {
+.section__text {
   color: var(--color-gray-two);
   font-family: var(--font-family-secondary);
   font-size: 16px;

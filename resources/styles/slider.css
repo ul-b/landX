@@ -16,11 +16,11 @@
   -webkit-touch-callout: none;
 }
 
-.slider input {
+.slider__input {
   display: none;
 }
 
-.slide {
+.slider__slide {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -29,25 +29,17 @@
   width: 100%;
 }
 
-.slide img {
+.slider__img {
   width: 31.3%;
 }
 
-.slide:hover + .nav label {
-  opacity: 0.5;
-}
-
-input:checked + .slide {
+.slider__input:checked + .slider__slide {
   opacity: 1;
   transform: scale(1);
   transition: opacity 0.4s;
 }
 
-input:checked + .nav label {
-  display: block;
-}
-
-.nav-dots {
+.slider__dots-block {
   display: block;
   height: 12.5px;
   margin-top: 40px;
@@ -55,7 +47,7 @@ input:checked + .nav label {
   width: 100%;
 }
 
-.nav-dots .nav-dot {
+.slider__dot {
   background-color: var(--color-blue-three);
   border-radius: 100%;
   display: inline-block;
@@ -65,14 +57,13 @@ input:checked + .nav label {
   width: 12.5px;
 }
 
-.nav-dots .nav-dot:hover {
+.slider__dot:hover {
   background-color: var(--color-blue);
   cursor: pointer;
 }
 
-/* doesn't work */
-input#img-1:checked ~ .nav-dots label#img-dot-1,
-input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3 {
+#slide-1:checked ~ .slider__dots-block #slide-1-dot,
+#slide-2:checked ~ .slider__dots-block #slide-2-dot,
+#slide-3:checked ~ .slider__dots-block #slide-3-dot {
   background: var(--color-blue);
 }
