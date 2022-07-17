@@ -26,6 +26,21 @@
   width: auto;
 }
 
+.blue-button {
+  background-color: var(--color-blue-two);
+  border-radius: 3px;
+  border-color: var(--color-blue-two);
+  color: var(--color-white);
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  line-height: 30px;
+  min-width: 144px;
+  text-transform: uppercase;
+  width: 184px;
+}
+
 /*////////// FLEXBOX //////////*/
 
 .flex-cont {
@@ -152,13 +167,14 @@
 .reg-form__submit {
   background-color: var(--color-blue-two);
   border-radius: 3px;
+  border-color: var(--color-blue-two);
   color: var(--color-white);
   font-family: var(--font-family-primary);
   font-size: 16px;
   font-weight: 700;
   height: 54px;
   line-height: 30px;
-  margin: 12.5px;
+  margin: 12.5px;                                                         /* change in feature-header */
   min-width: 144px;
   text-transform: uppercase;
   width: 184px;
@@ -193,11 +209,6 @@
   padding: 100px 20%;
 }
 
-.section_video {
-  background-color: var(--color-white);
-  padding: 100px 26%;
-}
-
 .section_centered {
   align-items: center;
   text-align: center;
@@ -211,12 +222,29 @@
   flex-direction: row-reverse;
 }
 
+.section_video {
+  background-color: var(--color-white);
+  padding: 100px 26%;
+}
+
+.section_registration {
+  background-image: url("../images/registration-background.png");
+  background-position: center 82.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 200px;
+}
+
 .section__text {
   color: var(--color-gray-two);
   font-family: var(--font-family-secondary);
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
+}
+
+.section__text-it {
+  font-style: italic;
 }
 
 .section__img {
@@ -272,7 +300,7 @@
 .section__subheading_size_m {
   font-size: 18px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 24px;
 }
 
 .section__subheading_size_l {
@@ -281,12 +309,87 @@
   line-height: 64px;
 }
 
-.section__video {
-  margin: 70px 0px;
+.section__main-content {
+  align-self: stretch;
+  margin: 70px 0px 0px;
 }
 
-.section__slider {
-  margin: 70px 0px 0px;
+.section__video-feature-block {
+  align-self: stretch;
+  padding: 45px 3% 0px;
+}
+
+.section__video-feature {
+  align-items: flex-start;
+}
+
+.section__video-feature-img {
+  padding: 0px 7.5px 0px 0px;
+}
+
+.section__clients-img {
+  padding: 0px 20px;
+}
+
+.section__testimonial-block {
+  margin: 50px 0px 0px;
+}
+
+.section__testimonial {
+  padding: 0px 14px;
+}
+
+.section__testimonial-icon {
+  position: relative;
+  top: 20px;
+}
+
+.section__testimonial-text {
+  background-color: var(--color-gray-three);
+  background-repeat: no-repeat;
+  padding: 35px;
+}
+
+.section__testimonial-bg {
+  background-image: url("../images/clients-testimonial-background.png");
+  background-position: center;
+  height: 17px;
+  width: 100%;
+}
+
+.section__testimonial-name {
+  color: var(--color-blue);
+  font-family: var(--font-family-secondary);
+  padding: 6px 0px 0px;
+}
+
+.section__testimonial-company {
+  color: var(--color-gray-two);
+  font-family: var(--font-family-secondary);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.section__registration-text {
+  color: var(--color-white);
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.section__registration-text_addit {
+  font-size: 20px;
+  padding: 35px 0px 0px;
+}
+
+.section__registration-text_main {
+  font-size: 35px;
+  padding: 20px 0px 0px;
+}
+
+.section__registration-button {
+  margin: 50px 0px 30px;
 }
 
 
