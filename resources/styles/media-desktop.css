@@ -1,0 +1,359 @@
+@media screen and (max-width: 1720px) {  /* transform: scale(0.75); */
+
+  .site-logo {
+    height: auto;
+    width: 78px;
+  }
+
+  .blue-button {
+    border-radius: 2px;
+    font-size: 12px;
+    height: 43px;
+    line-height: 20px;
+    min-width: 115px;
+    width: 148px;
+  }
+
+
+
+  /*////////// HEADER //////////*/
+
+  .header {
+    padding: 35px 20% 100px;
+  }
+
+  .header__social-media-icon {
+    height: auto;
+    margin: 0px 2.5px;
+    width: 20.25px;
+  }
+
+  .header__h-one {
+    margin: 120px 0px 0px;
+  }
+
+  .header__p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0px 0px;
+  }
+
+  .header__reg-form {
+    margin: 50px 0px 0px;
+  }
+
+
+
+  /*////////// H1 //////////*/
+
+  .h-one {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+
+
+  /*////////// REG-FORM //////////*/
+
+  .reg-form {
+    padding: 9.5px;
+  }
+
+  .reg-form__input {
+    border-radius: 2px;
+    font-size: 12px;
+    height: 43px;
+    line-height: 20px;
+    margin: 9.5px;
+    min-width: 115px;
+    padding: 17px 0px 17px 17px;
+    width: 172px;
+  }
+
+  .reg-form__submit {
+    margin: 9.5px;
+  }
+
+
+
+  /*////////// REGISTER-NOW //////////*/
+
+  .register-now__text {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+  
+
+
+  /*////////// SECTION //////////*/
+
+  .section {
+    margin: 0px auto;
+    max-width: 1052px;
+    padding: 80px 80px;
+  }
+
+  .section_video {
+    padding: 80px 160px;
+  }
+
+  .section_registration {
+    margin: 0px;
+    max-width: none;
+  }
+  
+  .section_footer {
+    padding: 60px 20%;
+  }
+
+  .section__text {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .section__brief-img {
+    width: 50%;
+  }
+
+  .section__heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .section__brief-descr {
+    padding: 25px 0px 0px;
+  }
+
+  .section__subheading_size_s {
+    font-size: 13px;
+  }
+
+  .section__subheading_size_m {
+    font-size: 14.5px;
+    line-height: 19px;
+  }
+
+  .section__subheading_size_l {
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  .section__main-content {
+    margin: 56px 0px 0px;
+  }
+
+  .section__pricing-table {
+    margin: 0px 12px 0px;
+  }
+
+  .section__video-feature-block {
+    padding: 36px 3% 0px;
+  }
+
+  .section__video-feature-img {
+    height: 19px;
+    width: auto;
+  }
+
+  .section__clients-img {
+    height: 32px;
+    padding: 0px 16px;
+    width: auto;
+  }
+
+  .section__testimonial-block {
+    margin: 40px 0px 0px;
+  }
+
+  .section__testimonial {
+    padding: 0px 11px;
+  }
+
+  .section__testimonial-icon {
+    height: 32px;
+    top: 16px;
+    width: auto;
+  }
+
+  .section__testimonial-text {
+    padding: 36px 28px 24px;
+  }
+
+  .section__testimonial-bg {
+    height: 13.5px;
+  }
+
+  .section__testimonial-name {
+    padding: 4px 0px 0px;
+    line-height: 20px;
+  }
+
+  .section__testimonial-company {
+    font-size: 10.5px;
+    line-height: 16px;
+  }
+
+  .section__registration-text {
+    line-height: 28px;
+  }
+
+  .section__registration-text_addit {
+    font-size: 16px;
+    padding: 23px 0px 0px;
+  }
+
+  .section__registration-text_main {
+    font-size: 28px;
+    padding: 16px 0px 0px;
+  }
+
+  .section__registration-button {
+    margin: 40px 0px 24px;
+  }
+
+  .section__registration-button-arrow {
+    padding: 0px 0px 0px 10px;
+  }
+
+  .section__footer-header {
+    font-size: 19px;
+    line-height: 28px;
+    padding: 0px 0px 12px;
+  }
+
+  .section__footer-button {
+    font-size: 14.5px;
+    line-height: 24px;
+  }
+
+  .section__footer-letter-icon {
+    height: 16px;
+    padding: 0px 6px 3px;
+    width: auto;
+  }
+
+  .section__footer-copyright {
+    font-size: 13px;
+    line-height: 44px;
+  }
+
+  .section__footer-social-media-block {
+    padding: 0px 0px 20px;
+  }
+
+  .section__footer-social-media-icon {
+    padding: 0px 2.5px 0px;
+    height: 20px;
+    width: auto;
+  }
+
+
+
+  /*////////// BRIEF-FEATURE //////////*/
+
+  .brief-feature {/**/
+    padding: 30px 0px 0px;
+  }
+
+  .brief-feature__logo {/**/
+    margin: 7px 12px 0px 0px;
+    height: auto;
+    width: 26px;
+  }
+
+
+
+  /*////////// FEATURES-BLOCK //////////*/
+
+  .features-block {/**/
+    padding: 56px 36px 0px;
+  }
+
+  .features-block__logo {/**/
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    width: 40px;
+  }
+
+
+
+  /*////////// PRICING-TABLE //////////*/
+
+  .pricing-table__tfoot {
+    height: 60px;
+  }
+
+  .pricing-table__th {
+    padding: 16px;
+  }
+
+  .pricing-table__header {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .pricing-table__descr {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .pricing-table__cell {
+    font-size: 13px;
+    height: 40px;
+    line-height: 13px;
+  }
+
+  .pricing-table__cell_key {
+    padding: 0px 0px 0px 24px;
+  }
+
+  .pricing-table__cell_value {
+    padding: 0px 28px 0px;
+    width: 80px;
+  }
+
+  .pricing-table__cell_price {
+    padding: 0px 28px 0px 24px;
+  }
+
+  .pricing-table__price {
+    font-size: 14.5px;
+    line-height: 51px;
+  }
+
+  .pricing-table__button {
+    border-radius: 2px;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 1px 0px 0px;
+  }
+
+  .pricing-table__button_white {
+    height: 34px;
+    width: 77px;
+  }
+
+  .pricing-table__button_blue {
+    height: 32px;
+    width: 75px;
+  }
+
+
+
+  /*////////// slider.css //////////*/
+  
+  .slider {
+    padding-bottom: 43.5px;
+  }
+  
+  .slider__dots-block {
+    height: 10px;
+    margin-top: 28px;
+  }
+
+  .slider__dot {
+    height: 10px;
+    margin: 0 3px;
+    width: 10px;
+  }
+}
