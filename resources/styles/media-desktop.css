@@ -1,4 +1,4 @@
-@media screen and (max-width: 1720px) {  /* transform: scale(0.75); */
+@media screen and (max-width: 1720px) {
 
   .site-logo {
     height: auto;
@@ -48,7 +48,7 @@
 
   .h-one {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 44px;
   }
 
 
@@ -81,6 +81,12 @@
   .register-now__text {
     font-size: 13px;
     padding-top: 5px;
+  }
+
+  .register-now__arrow{
+    height: auto;
+    padding: 0px 0px 20px 7px;
+    width: 39px;
   }
   
 
@@ -251,11 +257,11 @@
 
   /*////////// BRIEF-FEATURE //////////*/
 
-  .brief-feature {/**/
+  .brief-feature {
     padding: 30px 0px 0px;
   }
 
-  .brief-feature__logo {/**/
+  .brief-feature__logo {
     margin: 7px 12px 0px 0px;
     height: auto;
     width: 26px;
@@ -265,12 +271,11 @@
 
   /*////////// FEATURES-BLOCK //////////*/
 
-  .features-block {/**/
+  .features-block {
     padding: 56px 36px 0px;
   }
 
-  .features-block__logo {/**/
-    padding: 0px 0px 0px 0px;
+  .features-block__logo {
     height: auto;
     width: 40px;
   }

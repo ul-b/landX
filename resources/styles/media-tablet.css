@@ -1,0 +1,396 @@
+@media screen and (max-width: 1024px) {
+
+  .site-logo {
+    height: auto;
+    width: 70px;
+  }
+
+  .blue-button {
+    font-size: 9px;
+    height: 32px;
+    line-height: 15px;
+    min-width: 75px;
+    width: 111px;
+  }
+
+
+
+  /*////////// HEADER //////////*/
+
+  .header {
+    padding: 35px 30px 75px;
+  }
+
+  .header__h-one {
+    margin: 100px 0px 0px;
+  }
+
+  .header__p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 22.5px 0px 0px;
+  }
+
+  .header__reg-form {
+    margin: 37.5px 0px 0px;
+  }
+
+  .header__register-now {
+    justify-content: center;
+  }
+
+
+
+  /*////////// H1 //////////*/
+
+  .h-one {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+
+
+  /*////////// REG-FORM //////////*/
+
+  .reg-form {
+    padding: 7px;
+  }
+
+  .reg-form__input {
+    font-size: 9px;
+    height: 32px;
+    line-height: 15px;
+    margin: 7px;
+    min-width: 75px;
+    padding: 13px 0px 13px 8px;
+    width: 129px;
+  }
+
+  .reg-form__submit {
+    margin: 7px;
+  }
+
+
+
+  /*////////// REGISTER-NOW //////////*/
+
+  .register-now {
+    padding: 0px 0px 0px 145px;
+    width: 100%;
+  }
+
+  .register-now__text {
+    font-size: 10px;
+    padding-top: 2px;
+  }
+
+  .register-now__arrow{
+    height: auto;
+    padding: 0px 0px 15px 7px;
+    width: 28.5px;
+  }
+  
+
+
+  /*////////// SECTION //////////*/
+
+  .section {
+    padding: 56px 30px;
+  }
+
+  .section_reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .section_brief {
+    flex-direction: column-reverse;
+  }
+
+  .section_video {
+    margin: 0px auto;
+    max-width: 700px;
+    padding: 56px 30px;
+  }
+  
+  .section_footer {
+    padding: 45px 30px;
+  }
+
+  .section__text {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .section__brief-img {
+    align-self: center;
+    max-width: 430px;
+    padding: 25px 0px 0px 0px;
+    width: 80%;
+  }
+
+  .section__brief-cont {
+    align-items: center;
+  }
+
+  .section__heading {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .section__line {
+    margin: 10px 0px 0px;
+    width: 48px;
+  }
+  
+  .section__line_brief {
+    margin: 16px 0px 0px;
+  }
+
+  .section__brief-descr {
+    max-width: 540px;
+    padding: 16px 0px 0px;
+    text-align: center;
+  }
+
+  .section__subheading_size_s {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .section__subheading_size_m {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .section__subheading_size_l {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .section__main-content {
+    margin: 42px 0px 0px;
+  }
+
+  .section__video-feature-block {
+    padding: 20px 10px 0px;
+  }
+
+  .section__video-feature {
+    align-items: center;
+    padding: 0px 10px;
+    text-align: left;
+  }
+
+  .section__video-feature-img {
+    padding: 0px 5px 0px 0px;
+  }
+
+  .section__clients-img {
+    height: 24px;
+    padding: 0px 12px;
+  }
+
+  .section__testimonial-block {
+    flex-direction: column;
+    margin: 30px 0px 0px;
+  }
+
+  .section__testimonial {
+    padding: 0px 7px 15px;
+  }
+
+  .section__testimonial-icon {
+    height: 26px;
+    top: 13px;
+  }
+
+  .section__testimonial-text {
+    padding: 22px 16px 18px;
+  }
+
+  .section__testimonial-company {
+    font-size: 9px;
+    line-height: 14px;
+  }
+
+  .section__registration-text {
+    line-height: 21px;
+  }
+
+  .section__registration-text_addit {
+    font-size: 12px;
+    padding: 13px 0px 0px;
+  }
+
+  .section__registration-text_main {
+    font-size: 21px;
+    padding: 10px 0px 0px;
+  }
+
+  .section__registration-button {
+    margin: 30px 0px 13px;
+  }
+
+  .section__registration-button-arrow {
+    height: 6px;
+    padding: 0px 0px 0px 6px;
+    width: auto;
+  }
+
+  .section__footer-header {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px 0px 9px;
+  }
+
+  .section__footer-button {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .section__footer-letter-icon {
+    height: 13px;
+    padding: 0px 6px 2px;
+  }
+
+  .section__footer-copyright {
+    font-size: 10px;
+    line-height: 35px;
+  }
+
+  .section__footer-social-media-icon {
+    padding: 0px 2px 0px;
+    height: 15px;
+  }
+
+
+
+  /*////////// BRIEF-FEATURE //////////*/
+
+  .brief-feature {
+    padding: 22.5px 0px 0px;
+  }
+
+  .brief-feature__logo {
+    margin: 2px 12px 0px 0px;
+    width: 19.5px;
+  }
+
+  .features-block__name {
+    padding: 12.5px 0px 10.5px;
+  }
+  
+
+
+
+  /*////////// FEATURES-BLOCK //////////*/
+
+  .features-block {
+    padding: 42px 15px 0px;
+  }
+
+  .features-block__logo {
+    width: 30px;
+  }
+
+
+
+  /*////////// PRICING-TABLE //////////*/
+
+  .pricing-table_desktop {
+    display: none;
+  }
+  
+  .pricing-table_mobile {
+    display: table;
+  }
+
+  .pricing-table__thead_white {
+    border-bottom: 1.5px dotted var(--color-gray-four);
+  }
+
+  .pricing-table__tfoot {
+    height: 45px;
+  }
+
+  .pricing-table__th {
+    padding: 12px;
+  }
+
+  .pricing-table__header {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .pricing-table__descr {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .pricing-table__cell {
+    font-size: 10px;
+    height: 30px;
+    line-height: 10px;
+  }
+
+  .pricing-table__cell_key {
+    padding: 0px 0px 0px 18px;
+    width: 114px;
+  }
+
+  .pricing-table__cell_value {
+    padding: 0px 12px 0px 12px;
+    text-align: center;
+    width: 25%;
+  }
+
+  .pricing-table__cell_price {
+    padding: 0px 21px 0px 18px;
+  }
+
+  .pricing-table__price {
+    font-size: 11px;
+    line-height: 38px;
+    padding-top: 3px;
+  }
+
+  .pricing-table__sign {
+    height: auto;
+    padding: 0px 0px 0px;
+    width: 12px;
+  }
+
+  .pricing-table__button {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .pricing-table__button_white {
+    height: 26px;
+    width: 58px;
+  }
+
+  .pricing-table__button_blue {
+    height: 24px;
+    width: 56px;
+  }
+
+
+
+  /*////////// slider.css //////////*/
+  
+  .slider {
+    padding-bottom: 33px;
+  }
+  
+  .slider__dots-block {
+    height: 7.5px;
+    margin-top: 18px;
+  }
+
+  .slider__dot {
+    height: 7.5px;
+    margin: 0 2px;
+    width: 7.5px;
+  }
+}

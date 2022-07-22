@@ -276,8 +276,8 @@ body {
 
 .section__brief-img {
   align-self: flex-start;
-  width: 51%;
   padding: 0px 4.4%/*55px*/ 0px 0px;
+  width: 51%;
 }
 
 .section__brief-img_right {
@@ -522,12 +522,24 @@ body {
   width: 100%;
 }
 
+.pricing-table_desktop {
+  display: table;
+}
+
+.pricing-table_mobile {
+  display: none;
+}
+
 .pricing-table__thead {
   background-color: var(--color-gray);
 }
 
 .pricing-table__thead_blue {
   background-color: var(--color-blue);
+}
+
+.pricing-table__thead_white {
+  background-color: var(--color-white);
 }
 
 .pricing-table__tbody {
@@ -549,6 +561,10 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 25px;
+}
+
+.pricing-table__header_dark {
+  color: var(--color-gray);
 }
 
 .pricing-table__descr {
@@ -595,6 +611,11 @@ body {
 
 .pricing-table__cell_price {
   padding: 0px 35px 0px 30px;
+  text-align: left;
+}
+
+.pricing-table__cell_button {
+  padding: 0px 12px 0px 12px;
 }
 
 .pricing-table__price {
