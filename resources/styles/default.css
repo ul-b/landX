@@ -500,6 +500,14 @@ body {
 
 /*////////// FEATURES-BLOCK //////////*/
 
+.features-big-block {
+  flex-direction: column;
+}
+
+.features-small-block {
+  flex-direction: row;
+}
+
 .features-block {
   padding: 70px 45px 0px;
 }
@@ -649,15 +657,15 @@ body {
 
 .pricing-table__button_blue {
   background-color: var(--color-blue);
-  border: none;
+  border: 1px solid var(--color-blue);
   color: var(--color-white);
-  height: 40px;
-  width: 94px;
+  height: 42px;
+  width: 96px;
 }
 
 .pricing-table__button_white:hover, .pricing-table__button_blue:hover {
   background-color: var(--color-gray);
-  border: none;
+  border: 1px solid var(--color-gray);
   color: var(--color-white);
 }
 
