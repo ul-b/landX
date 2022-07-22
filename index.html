@@ -10,34 +10,70 @@
 
   <body>
 
-    <header class="header flex-cont flex-cont_dir_column flex-cont_align_stretch">
-      <div class="flex-cont flex-cont_justify_space-between flex-cont_align_center">
-        <img class="site-logo" src="resources/images/landx-icon.png">
-        <div class="flex-cont flex-cont_align_center">
-          <a class="img-link" target="_blank" href="https://www.facebook.com/">
-            <img class="header__social-media-icon" src="resources/images/header-facebook-icon.png">
-          </a>
-          <a class="img-link" target="_blank" href="https://twitter.com/">
-            <img class="header__social-media-icon" src="resources/images/header-twitter-icon.png">
-          </a>
-          <a class="img-link" target="_blank" href="https://www.linkedin.com/">
-            <img class="header__social-media-icon" src="resources/images/header-linkedin-icon.png">
-          </a>
+    <header class="header">
+      <nav class="main-nav flex-cont flex-cont_align_center" id="nav">
+        <img class="main-nav__logo site-logo" src="resources/images/landx-icon-dark.png">
+        <div class="main-nav__button-block flex-cont flex-cont_align_stretch">
+          <button class="main-nav__button">
+            Home
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__button">
+            Features
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__button">
+            Services
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__button">
+            Packages
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__button">
+            Testimonials
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__button">
+            Contact
+            <hr class="main-nav__line">
+          </button>
+          <button class="main-nav__menu-button">
+            <hr class="main-nav__menu-line">
+            <hr class="main-nav__menu-line">
+            <hr class="main-nav__menu-line">
+          </button>
         </div>
-      </div>
-      <h1 class="h-one header__h-one">
-        Get the Best <span class="h-one__first-highlight">Solution</span> for Your <span class="h-one__second-highlight">Business</span>
-      </h1>
-      <p class="header__p">Accelerator photo sharing business school drop out ramen hustle crush it revenue traction platforms. Coworking viral landing page user base.</p>
-      <form class="reg-form header__reg-form flex-cont flex-cont_justify_center flex-cont_align_center" action="" method="post">
-        <input class="reg-form__input" type="text" placeholder="Your Name">
-        <input class="reg-form__input" type="email" placeholder="Your E-Mail">
-        <input class="reg-form__input" type="tel" placeholder="Phone Number">
-        <input class="reg-form__submit blue-button" type="submit" value="Get started">
-      </form>
-      <div class="register-now header__register-now flex-cont flex-cont_align_center">
-        <p class="register-now__text">Register Now and Get FREE Trial</p>
-        <img class="register-now__arrow" src="resources/images/header-arrow.png">
+      </nav>
+      <div class="header__pos-block flex-cont flex-cont_dir_column flex-cont_align_stretch">
+        <div class="flex-cont flex-cont_justify_space-between flex-cont_align_center">
+          <img class="site-logo" src="resources/images/landx-icon.png">
+          <div class="flex-cont flex-cont_align_center">
+            <a class="img-link" target="_blank" href="https://www.facebook.com/">
+              <img class="header__social-media-icon" src="resources/images/header-facebook-icon.png">
+            </a>
+            <a class="img-link" target="_blank" href="https://twitter.com/">
+              <img class="header__social-media-icon" src="resources/images/header-twitter-icon.png">
+            </a>
+            <a class="img-link" target="_blank" href="https://www.linkedin.com/">
+              <img class="header__social-media-icon" src="resources/images/header-linkedin-icon.png">
+            </a>
+          </div>
+        </div>
+        <h1 class="h-one header__h-one">
+          Get the Best <span class="h-one__first-highlight">Solution</span> for Your <span class="h-one__second-highlight">Business</span>
+        </h1>
+        <p class="header__p">Accelerator photo sharing business school drop out ramen hustle crush it revenue traction platforms. Coworking viral landing page user base.</p>
+        <form class="reg-form header__reg-form flex-cont flex-cont_justify_center flex-cont_align_center" action="" method="post">
+          <input class="reg-form__input" type="text" placeholder="Your Name">
+          <input class="reg-form__input" type="email" placeholder="Your E-Mail">
+          <input class="reg-form__input" type="tel" placeholder="Phone Number">
+          <input class="reg-form__submit blue-button" type="submit" value="Get started">
+        </form>
+        <div class="register-now header__register-now flex-cont flex-cont_align_center">
+          <p class="register-now__text">Register Now and Get FREE Trial</p>
+          <img class="register-now__arrow" src="resources/images/header-arrow.png">
+        </div>
       </div>
     </header>
 
@@ -568,5 +604,6 @@
       </div>
       
     </footer>
+    <script src="resources/scripts/main.js" async></script>
   </body>
 <html>

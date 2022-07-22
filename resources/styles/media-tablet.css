@@ -17,7 +17,7 @@
 
   /*////////// HEADER //////////*/
 
-  .header {
+  .header__pos-block {
     padding: 35px 30px 75px;
   }
 
@@ -37,6 +37,22 @@
 
   .header__register-now {
     justify-content: center;
+  }
+
+
+
+  /*////////// MAIN-NAV //////////*/
+  
+  .main-nav {
+    padding: 0px 30px 0px;
+  }
+
+  .main-nav__button {
+    display: none;
+  }
+
+  .main-nav__menu-button {
+    display: block;
   }
 
 

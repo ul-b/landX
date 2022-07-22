@@ -18,7 +18,7 @@
 
   /*////////// HEADER //////////*/
 
-  .header {
+  .header__pos-block {
     padding: 35px 20% 100px;
   }
 
@@ -40,6 +40,14 @@
 
   .header__reg-form {
     margin: 50px 0px 0px;
+  }
+
+
+
+  /*////////// MAIN-NAV //////////*/
+  
+  .main-nav__button {
+    font-size: 12px;
   }
 
 
